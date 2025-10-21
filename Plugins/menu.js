@@ -3,12 +3,12 @@ const { cmd, commands } = require("../command");
 cmd(
   {
     pattern: "menu",
-    desc: "Displays all available commands",
+    desc: "All available commands here",
     category: "main",
     filename: __filename,
   },
   async (
-    danuwa,
+    KESHANBOT,
     mek,
     m,
     {
@@ -29,7 +29,7 @@ cmd(
         });
       }
 
-      let menuText = "📋 *Available Commands:*\n";
+      let menuText = "📋 *Bro, commands are here!:*\n";
 
       for (const [cat, cmds] of Object.entries(categories)) {
         menuText += `\n📂 *${cat.toUpperCase()}*\n`;
@@ -45,3 +45,4 @@ cmd(
     }
   }
 );
+
