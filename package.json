@@ -1,18 +1,18 @@
 {
-  "name": "DANUWA-MD",
+  "name": "KESHAN-BOT",
   "version": "1.0.0",
-  "description": "A Powerfull Whatsapp Bot",
+  "description": "Connect Your Whatsapp to Next Gen - KESHAN BOT WA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name DANUWA-MD",
-    "stop": "pm2 stop DANUWA-MD",
-    "restart": "pm2 restart DANUWA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name KESHAN-BOT",
+    "stop": "pm2 stop KESHAN-BOT",
+    "restart": "pm2 restart KESHAN-BOT"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.16",
+    "@whiskeysockets/baileys": "^7.0.0-rc.6",
     "api-dylux": "^1.8.5",
-    "axios": "^1.9.0",
-    "browser-id3-writer": "^6.2.0",
+    "axios": "^1.12.2",
+    "browser-id3-writer": "^6.3.1",
     "cheerio": "^1.0.0",
     "express": "latest",
     "ffmpeg": "^0.0.4",
